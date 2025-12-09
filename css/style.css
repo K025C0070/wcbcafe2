@@ -193,3 +193,21 @@ img {
 .info th {
     padding-left: 2.5rem;
 }
+
+
+/* NEWS
+---------------------------------------*/
+.cover-news {
+    background-image: url(../images/cover-news-s.webp);
+}
+
+.post {
+    margin-bottom: 3rem;
+}
+.post-title {
+    font-weight: normal;
+    margin-bottom: 1.25rem;
+}
+.post-date {
+    font-size: .875rem;
+}

@@ -268,6 +268,7 @@ img {
 .cover-home {
     background-image: url(../images/cover-home-l.webp);
 }
+
 .about {
     margin: 4rem auto 0;
 }
@@ -278,6 +279,27 @@ img {
     background-image: url(../images/cover-news-l.webp);
 }
 
+.news-contents {
+    display: flex;
+    justify-content: space-between;
+}
+.post {
+    width: 60%;
+    order: 2;
+}
+.sidebar {
+    width: 22%;
+    order: 3;
+}
+.ad {
+    order: 1;
+}
+
+}
+.sidebar .heading-medium {
+    line-height: 1;
+    margin-bottom: 1rem;
+}
 
 /*ふったー*/
 .page-footer {
@@ -288,4 +310,3 @@ img {
     padding-left: 2.5rem;
 }
 
-}
